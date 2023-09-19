@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/main.css">
+
+       
+
+
+</head>
+<body style="background-color: rgba(220, 221, 130, 0.884);">
+
+    <div class="navbar">
+        <div class="badge">
+            <img src="assets/badge.jpg" alt="">
+        </div>
+
+        <div class="name">
+            <h2>sri sumangala <br> daham pasala</h2>
+        </div>
+
+            
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contributors</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> 
+
+    </div>
+
+    <!-------------------------------banner----------------------------------------------------->
+
+    
+    
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="assets/cover3.png " style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="assets/cover2.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="assets/event1.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+
+    <!--   --------------------Events--------------------------    -->
+    <div class="events">
+        <h2>Recent Events</h2>
+
+        <div class="event1">
+            <img src="assets/event1.jpg" alt="">
+            <h3>EVENT1</h3>
+        </div>
+
+        <div class="event2">
+            <img src="assets/event2.jpg" alt=""> <br>
+            <h3>EVENT2</h3>
+        </div>
+
+        <div class="event3">
+            <img src="assets/event1.jpg" alt="">
+            <h3>EVENT3</h3>
+        </div>
+
+
+    </div>
+
+    <!----------------------footer--------------------------------------->
+
+    <div class="footer">
+
+       <div class="contact">
+        
+       </div> 
+        
+
+
+
+
+    </div>
+
+
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+
+    </script>
+
+
+        
+
+
+</body>
+</html>
