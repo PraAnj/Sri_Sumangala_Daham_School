@@ -16,15 +16,15 @@ const About = () => {
       <><Box sx={{ width: '100%', backgroundColor: '#c4c374' }}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
           <Grid xs={12} sm={6} md={4} lg={3}>
-            <Typography variant="h6" gutterBottom>Sri Devram Vehera Pannipitiya</Typography>
-            <Typography variant="h6" gutterBottom>Adress 01</Typography>
-            <Typography variant="h6" gutterBottom>Depanama</Typography>
+            <Typography variant="h6" gutterBottom>Sri Devram Viharaya </Typography>
+            <Typography variant="h6" gutterBottom>Cheenagahakotunna Road, </Typography>
             <Typography variant="h6" gutterBottom>Pannipitiya</Typography>
+            <Typography variant="h6" gutterBottom>10230</Typography>
           </Grid>
           <Grid xs={12} sm={6} md={4} lg={3}>
             <Typography variant="h6" gutterBottom>Email : srisumangaladahampasala@gmail.com</Typography>
-            <Typography variant="h6" gutterBottom>Mobile : 0712144300</Typography>
-            <Typography variant="h6" gutterBottom>Phone : 0112847444</Typography>
+            <Typography variant="h6" gutterBottom>Mobile : 0112 849 337</Typography>
+            <Typography variant="h6" gutterBottom>Phone : 0112 849 337</Typography>
             <Typography variant="h6" gutterBottom>Web : devramvehera.lk</Typography>
           </Grid>
           <Grid xs={12} sm={6} md={4} lg={3}>
