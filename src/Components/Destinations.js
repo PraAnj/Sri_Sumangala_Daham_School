@@ -27,14 +27,14 @@ const Destinations = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 sx={{ height: 140 }}
-                                image="/images/wildlife0.png"
-                                title="green iguana" />
+                                image="/images/blood_donation_2023.png"
+                                title="blood donation" />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Event 1
+                                    Blood Donation 2023
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Event summary
+                                    we organized a blood donation event as part of the celebration of 54th birthday of Sri Sumangala Maha Nayaka thero.
                                 </Typography>
                             </CardContent>
                             <CardActions>
