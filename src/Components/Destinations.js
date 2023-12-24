@@ -26,7 +26,7 @@ const Destinations = () => {
                     <Grid xs={12} sm={6} md={4} lg={3}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
-                                sx={{ height: 140 }}
+                                sx={{ height: 260 }}
                                 image="/images/blood_donation_2023.png"
                                 title="blood donation" />
                             <CardContent>
@@ -46,7 +46,7 @@ const Destinations = () => {
                     <Grid xs={12} sm={6} md={4} lg={3}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
-                                sx={{ height: 140 }}
+                                sx={{ height: 260 }}
                                 image="/static/images/cards/contemplative-reptile.jpg"
                                 title="green iguana" />
                             <CardContent>
@@ -66,7 +66,7 @@ const Destinations = () => {
                     <Grid xs={12} sm={6} md={4} lg={3}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
-                                sx={{ height: 140 }}
+                                sx={{ height: 260 }}
                                 image="/static/images/cards/contemplative-reptile.jpg"
                                 title="green iguana" />
                             <CardContent>
@@ -86,7 +86,7 @@ const Destinations = () => {
                     <Grid xs={12} sm={6} md={4} lg={3}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
-                                sx={{ height: 140 }}
+                                sx={{ height: 260 }}
                                 image="/static/images/cards/contemplative-reptile.jpg"
                                 title="green iguana" />
                             <CardContent>
