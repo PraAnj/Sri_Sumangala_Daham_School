@@ -87,15 +87,15 @@ const Destinations = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 sx={{ height: 260 }}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="green iguana" />
+                                image="/images/katina__pinkama__2024..jpg"
+                                title="katina pinkama" />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Event 4
-                                </Typography>
+                                    katina pinkama 2024
+                                     </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Event summary
-                                </Typography>
+                                katina pinkama event was organized as per the annual tradition.
+                            </Typography>
                             </CardContent>
                             <CardActions>
                                 <Button size="small">Share</Button>
