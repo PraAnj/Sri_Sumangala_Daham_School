@@ -51,10 +51,10 @@ const Destinations = () => {
                                 title="dathu vandana 2023" />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Event 2
+                                    Dathu Vandana 2023
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Dathu Vandana 2023
+                                    we organized a datu vandana part of the poson poya day
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -93,8 +93,8 @@ const Destinations = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     Event 4
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    Event summary
+                                <Typography variant="body2" color="text.secondary"
+                                    Event summary>
                                 </Typography>
                             </CardContent>
                             <CardActions>
