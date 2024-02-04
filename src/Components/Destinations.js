@@ -47,14 +47,14 @@ const Destinations = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 sx={{ height: 140 }}
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                title="green iguana" />
+                                image="/image/dathu_vandana_2023.png"
+                                title="dathu vandana 2023" />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     Event 2
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Event summary
+                                    Dathu Vandana 2023
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -74,7 +74,7 @@ const Destinations = () => {
                                     Event 3
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Event summary
+                                    Event summary  
                                 </Typography>
                             </CardContent>
                             <CardActions>
